@@ -5237,7 +5237,7 @@ window.__require = function t(e, i, n) {
         "use strict";
         cc._RF.push(e, "05c18T81bpMJoySqeB29I5A", "Config"),
         e.exports = {
-            HOST: "http://127.0.0.1:8080",
+            HOST: "/",
             SOCKET: "ws://127.0.0.1:8080"
         },
         cc._RF.pop()
