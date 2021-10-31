@@ -15,7 +15,7 @@ app.use(cors({
     origin: '*',
     optionsSuccessStatus: 200
 }));
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 80;
 // port = 3000;
 let expressWs = require('express-ws')(app);
 let bodyParser = require('body-parser');
@@ -43,8 +43,8 @@ mongoose.connect(configDB.url, configDB.options)
 // cấu hình tài khoản admin mặc định và các dữ liệu mặc định
 require('./config/admin');
 // đọc dữ liệu from
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan('combined'));
 
 app.set('view engine', 'ejs'); // chỉ định view engine là ejs
