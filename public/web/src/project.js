@@ -5238,7 +5238,7 @@ window.__require = function t(e, i, n) {
         cc._RF.push(e, "05c18T81bpMJoySqeB29I5A", "Config"),
         e.exports = {
             HOST: "/",
-            SOCKET: "ws://127.0.0.1:8080"
+            SOCKET: "/"
         },
         cc._RF.pop()
     }
