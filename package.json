@@ -41,19 +41,18 @@
 		"validator": "^11.1.0",
 		"voucher-code-generator": "^1.1.1"
 	},
-	"devDependencies": {},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/MrT98/RedVip.git"
+		"url": "git+https://github.com/TieuMinhGame/SERVER.git"
 	},
-	"homepage": "https://github.com/MrT98/RedVip",
+	"homepage": "https://github.com/TieuMinhGame/SERVER",
 	"bugs": {
-		"url": "https://github.com/MrT98/RedVip/issues"
+		"url": "https://github.com/TieuMinhGame/SERVER/issues"
 	},
 	"author": {
 		"name": "Red T",
 		"email": "toan.vp98.wapmaster@gmail.com",
-		"url": "https://github.com/MrT98"
+		"url": "https://github.com/TieuMinhGame"
 	},
 	"license": "ISC"
 }
