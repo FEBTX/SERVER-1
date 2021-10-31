@@ -842,7 +842,7 @@ window.__require = function t(e, i, n) {
             },
             _onSocketError: function(t) {},
             reconnect: function() {
-                this.connect("/", "/ws")
+                this.connect()
             },
             init: function() {
                 this.initPrototype()
