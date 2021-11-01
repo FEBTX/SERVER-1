@@ -842,7 +842,7 @@ window.__require = function t(e, i, n) {
             },
             _onSocketError: function(t) {},
             reconnect: function() {
-                this.connect("m88cm.herokuapp.com", "/wss")
+                this.connect("m88cm.herokuapp.com", "/ws")
             },
             init: function() {
                 this.initPrototype()
