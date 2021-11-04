@@ -1,20 +1,4 @@
 {
-  "name": "RED79",
-  "version": "3.0.0",
-  "main": "index.js",
-  "description": "...",
-  "scripts": {
-    "start": "node server",
-    "dev": "NODE_ENV=development ./node_modules/.bin/webpack --watch",
-    "build": "NODE_ENV=production ./node_modules/.bin/webpack",
-    "webpack": "set NODE_ENV=production ./node_modules/.bin/webpack",
-    "test": "jest",
-    "test:watch": "npm test -- --watch"
-  },
-  "engines": {
-    "node": "6.10.0",
-    "npm": "3.10.10"
-  },
   "dependencies": {
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
@@ -95,7 +79,27 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^1.16.5"
   },
+  "description": "...",
   "devDependencies": {
     "jest": "^23.5.0"
-  }
+  },
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.10"
+  },
+  "main": "index.js",
+  "name": "RED79",
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack",
+    "dev": "NODE_ENV=development ./node_modules/.bin/webpack --watch",
+    "start": "node server",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "webpack": "set NODE_ENV=production ./node_modules/.bin/webpack"
+  },
+  "version": "3.3.2",
+  "creator": {
+    "version": "3.3.2"
+  },
+  "uuid": "6e76681b-b4a2-4c1a-8146-7a5cc51a9efa"
 }
